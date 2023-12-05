@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.ibb.co/9ysDJC7/tile-background.png");
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  header {
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	background-color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: larger;
+    font-family: 'Arial', sans-serif;
+  }
+
+  a:hover{
+    color: rgb(202, 173, 8);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  article {
+    background-color: #Ffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	border-style: dotted;
+	border-width: thin;
+  }
+  
+  article h2 {
+    margin-top: 0;
+    font-size: 1.1em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #Ffff;
+    margin-top: 25px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  }
+
+  .logo {
+    border-radius: 500px;
+    display: block;
+    margin: auto;
+    padding: 0;
+    border-style: double;
+    height: 175px;
+    width: 175px;
+  }
