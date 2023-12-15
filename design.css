@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("https://i.ibb.co/9ysDJC7/tile-background.png");
+    background-image: url("https://media.giphy.com/media/26tn9VcEGATKdw8xi/giphy.gif");
   }
   
   .container {
@@ -83,8 +83,5 @@ body {
     height: 175px;
     width: 175px;
   }
-  .top {
-    text-align: center;
-  }
-	  
+  
   
