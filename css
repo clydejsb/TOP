@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://clipground.com/images/dot-pattern-png-10.png");
+  background-size: 230px 230px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  
+  
+  header {
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .dropdownmenu ul, .dropdownmenu li{
+    margin: 0;
+    padding: 0%;
+}
+.dropdownmenu ul{
+   
+    list-style: none;
+    width: 100%;
+}
+
+.dropdownmenu ul{
+    float: left;
+    position: relative;
+    width: auto;
+    
+}
+
+.dropdownmenu a{
+    color: black;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'poppins', sans-serif;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease
+
+
+  
+}
+
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+ul:hover ul#submenu{
+    opacity: 1;
+    top: 45px;
+    visibility: visible;
+}
+
+nav{
+  text-align: center;
+  float: left;
+  margin: 0 auto;
+}
+
+  main {
+    margin-top: 20px;
+    align-content: center;
+    display: flex;
+    gap: 10px;
+  }
+
+  article {
+    width: 400px;
+    height: 500px;
+    background-color: #FFFFE0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-style: double;
+    border-width: thin;
+  }
+  
+  article h2 {
+    margin-top: 0;
+    font-size: 1.1em;
+  }
+  
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #Ffff;
+    margin-top: 25px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    border-radius: 500px;
+    display: block;
+    margin: auto;
+    padding: 0;
+    border-style: double;
+    border-width: thin;
+    height: 175px;
+    width: 175px;
+  }
+  .box1{
+    margin: auto;
+  }
+  .box2{
+    margin: auto;
+  }
+  img{
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+    padding: 3px;
+  }
