@@ -96,8 +96,21 @@ footer {
 .box2{
   margin: auto;
 }
-img{
+article img{
+  border-radius: 500px;
+  border-style: double;
   border-color: black;
   border-width: thin;
-  padding: 1px;
+  padding: 3px;
+}
+
+.wordbox{
+  width: auto;
+  height: auto;
+  background-color: #FFFFE0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-style: double;
+  border-width: thin;
 }
